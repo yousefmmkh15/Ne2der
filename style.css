@@ -1,0 +1,376 @@
+ *{
+    background-color: rgb(243, 237, 156);
+    margin: 0px;
+
+ }
+ nav{
+     margin: 0px;
+     height: 60px;
+     background-color: rgb(0, 0, 0);
+     position: sticky;
+     top: 0px;
+     overflow: hidden;
+ }
+
+ /* this part for NE2DER */
+
+#A{
+    display: inline;
+    position: relative;
+    top: 10px;
+    right: 27px;
+    font-size: 200%;
+    background-color: rgb(0, 0, 0);
+    font-family:     cursive;
+
+}
+
+#n{
+    background-color: rgb(0, 0, 0);
+    color: red;
+    animation: n 1s ease-in-out infinite alternate;
+
+}
+@-webkit-keyframes n {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ff1313, 0 0 40px #fc0000, 0 0 50px #fc0000, 0 0 60px #fc0000, 0 0 70px #fc0000;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ee3e4c, 0 0 40px #ee3e4c, 0 0 50px #ee3e4c, 0 0 60px #ee3e4c, 0 0 70px #ee3e4c, 0 0 80px #ee3e4c;
+    }
+  }
+
+#e{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 136, 0);
+    animation: e 1s ease-in-out infinite alternate;
+    position: relative;
+    left: 25px;
+}
+@-webkit-keyframes e {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgb(250, 91, 33), 0 0 40px rgb(250, 91, 33), 0 0 50px rgb(250, 91, 33), 0 0 60px rgb(250, 91, 33), 0 0 70px rgb(250, 91, 33);
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px rgb(250, 156, 33), 0 0 40px rgb(250, 156, 33), 0 0 50px rgb(250, 156, 33), 0 0 60px rgb(250, 156, 33), 0 0 70px rgb(250, 156, 33), 0 0 80px rgb(250, 156, 33);
+    }
+  }
+
+#q{
+    background-color: rgb(0, 0, 0);
+    color: yellow;
+    animation: q 1s ease-in-out infinite alternate;
+    position: relative;
+    left: 50px;
+
+}
+@-webkit-keyframes q {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px yellow, 0 0 40px yellow, 0 0 50px yellow, 0 0 60px yellow, 0 0 70px rgb(252, 252, 0);
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px rgb(253, 253, 100), 0 0 40px rgb(253, 253, 100), 0 0 50px rgb(253, 253, 100), 0 0 60px rgb(253, 253, 100), 0 0 70px rgb(253, 253, 100), 0 0 80px rgb(253, 253, 100);
+    }
+  }
+
+#d{
+    background-color: rgb(0, 0, 0);
+    color: rgb(51, 255, 0) ;
+    animation: d 1s ease-in-out infinite alternate;
+    position: relative;
+    left: 75px;
+
+}
+@-webkit-keyframes d {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgb(28, 112, 42), 0 0 40px rgb(28, 112, 42), 0 0 50px rgb(28, 112, 42), 0 0 60px rgb(28, 112, 42), 0 0 70px rgb(28, 112, 42);
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px rgb(51, 255, 0), 0 0 40px rgb(51, 255, 0), 0 0 50px rgb(51, 255, 0), 0 0 60px rgb(51, 255, 0), 0 0 70px rgb(51, 255, 0), 0 0 80px rgb(51, 255, 0);
+    }
+  }
+
+#e2{
+    background-color: rgb(0, 0, 0);
+    color: rgb(3, 173, 17);
+    animation: e2 1s ease-in-out infinite alternate;
+    position: relative;
+    left: 100px;
+
+}
+@-webkit-keyframes e2 {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgb(3, 173, 17), 0 0 40px rgb(3, 173, 17), 0 0 50px rgb(3, 173, 17), 0 0 60px rgb(3, 173, 17), 0 0 70px rgb(3, 173, 17);
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px rgb(43, 226, 58), 0 0 40px rgb(43, 226, 58), 0 0 50px rgb(43, 226, 58), 0 0 60px rgb(43, 226, 58), 0 0 70px rgb(43, 226, 58), 0 0 80px rgb(43, 226, 58);
+    }
+  }
+
+#r{
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 255, 242);
+    animation: r 1s ease-in-out infinite alternate;
+    position: relative;
+    left: 125px;
+
+}
+@-webkit-keyframes r {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgb(0, 255, 242), 0 0 40px rgb(0, 255, 242), 0 0 50px rgb(0, 255, 242), 0 0 60px rgb(0, 255, 242), 0 0 70px rgb(0, 255, 242);
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px rgb(0, 255, 242), 0 0 40px rgb(0, 255, 242), 0 0 50px rgb(0, 255, 242), 0 0 60px rgb(0, 255, 242), 0 0 70px rgb(0, 255, 242), 0 0 80px rgb(0, 255, 242);
+    }
+  }
+
+nav ul{
+    list-style: none;
+    background-color: rgb(0, 0, 0);
+
+}
+nav ul li {
+    display: inline ;
+    background-color: rgb(0, 0, 0);
+
+}
+nav ul li a {
+    display: inline;
+    position: relative;
+    top: 5px;
+    left: 117px;
+    font-size: 25px;
+    padding: 10px;
+    color: orangered;
+    text-decoration: none;
+    background-color: rgb(0, 0, 0);
+    font-family: cursive;
+}
+li a:hover {
+    background-color: rgb(255, 255, 255);
+    color:  rgb(10, 128, 10);
+    border-radius: 20px;
+    transition:0.5s;
+
+
+ }
+ #c{
+    border-radius: 10px;
+    position: relative;
+    top: 5px;
+    left: 125px;
+    background-color: white;
+    height: 25px;
+    color: red;
+    font-weight: 700;
+    font-family: cursive;
+
+
+ }
+ ::placeholder{
+    font-size: 70%;
+    color: rgb(247, 115, 8);
+}
+.article{
+    text-align: center;
+    padding: 5px;
+    font-family: cursive;
+    letter-spacing: -1px;
+
+}
+#who{
+    padding: 15px;
+    text-shadow: 5px 5px 5px rgb(23, 23, 24);
+}
+#readmore{
+    border-radius: 10px;
+    background-color: rgb(11, 51, 75);
+    color: white;
+    position: relative;
+    top: 20px;
+    height: 25px;
+    width: 100px;
+    display: block;
+
+}
+#readmore:hover{
+    height: 35px;
+    width: 120;
+    font-size: 17px;
+    background-color: rgb(19, 104, 156);
+    border-radius: 15px;
+    transition:0.5s;
+
+
+}
+.column {
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 15px;
+    border-color: rgb(60, 253, 1);
+  }
+.row{
+    position: relative;
+    top: 30px;
+    background-color: rgb(3, 44, 3);
+
+}
+#firstsec{
+    position: relative;
+    top: 30px;
+    background-color: rgb(3, 44, 3);
+    height: 360px;
+}
+#word{
+    text-align: center;
+    background-color : rgb(3, 44, 3);
+    color: #ff4500;
+    font-family: cursive;
+    animation: ww 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes ww {
+  from {
+     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ff4500, 0 0 40px #ff4500, 0 0 50px #ff4500, 0 0 60px #ff4500, 0 0 70px #ff4500;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4500, 0 0 40px #ff4500, 0 0 50px #ff4500, 0 0 60px #ff4500, 0 0 70px #ff4500, 0 0 80px #ff4500;
+  }
+}
+    
+
+#first{
+    position: relative;
+    left: 50px;
+    background-color: rgb(3, 44, 3);
+}
+#second{
+    position: relative;
+    left: 100px;
+    background-color: rgb(3, 44, 3);
+
+}
+#third{
+    position: relative;
+    left: 150px;
+    background-color: rgb(3, 44, 3);
+
+}
+.photo{
+    position: relative;
+    right: 15px;
+}
+.first1{
+    background-color: rgb(3, 44, 3);
+    font-weight: bold;
+    color: orangered;
+
+
+}
+#first2{
+    text-shadow: 3px 3px 3px yellow;
+    font-family: cursive;
+
+}
+#first3{
+    text-shadow: 3px 3px 3px yellow;
+    font-family: cursive;
+
+}
+#first4{
+    text-shadow: 3px 3px 3px yellow;
+    font-family: cursive;
+
+}
+
+#info{
+    font-size: 20px;
+    color: white;
+    background-color: rgb(11, 51, 75);
+    position: relative;
+    top: 50;
+    border-radius: 10px;
+    height: 35px;
+    width: 200px;
+}
+#info:hover{
+    font-size: 30px;
+    background-color: rgb(19, 104, 156);
+    height: 50;
+    width: 250;
+    border-radius: 20px;
+    transition:0.5s;
+}
+ /*   animation-name: info;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;  
+
+  
+} 
+@keyframes info {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:0px; top:0px;}
+    50%  {background-color:blue; left:0px; top:0px;}
+    75%  {background-color:green; left:0px; top:0px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+*/
+
+
+#video{
+    width: 70%;
+    position: relative;
+    top: 150px;
+    left: 200px;
+}
+#field{
+    position: relative;
+    top: 200px;
+    background-color: rgb(3, 44, 3);
+}
+fieldset label{
+    background-color: rgb(3, 44, 3);
+    color: orangered;
+    font-size: 20px;
+    font-family: cursive;
+
+
+}
+fieldset input{
+    background-color: rgb(9, 122, 9);
+    border-style: none;
+    color: rgb(238, 255, 0);
+    font-size: 15px;
+    font-weight: 550;
+
+}
+#one{
+    position: relative;
+    left: 82px;
+}
+#two{
+    position: relative;
+    left: 64px;
+}
+#three{
+    position: relative;
+    left: 9px;
+}
+#four{
+    position: relative;
+    left: 52px;
+}
+
+
+
